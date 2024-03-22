@@ -17,14 +17,17 @@ import br.com.controle.Vendedor;
 public class Program {
     public static void main(String[] args) {
         Apartamento apartamento1 = 
-               new Apartamento (1234,
+               new Apartamento (
+                       1234,
                        4321,
                        new Porteiro ("Noturno", 5000,
                        new ContraCheque ("29/03/2024", 5000),
                        "Cleber"),
                        new Contrato (356214, "Uma boa pessoa", 5000),
                        new Visitante ("87654321", "SamambaiaSul", "Alberto"),
-                       new Morador ("87654321", "Davi"));
+                       new Morador ("87654321", "Davi")
+               );
+        
         Loja loja1 = 
                 new Loja(
                         123456,
