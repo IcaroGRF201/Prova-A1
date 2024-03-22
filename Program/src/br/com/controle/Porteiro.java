@@ -1,14 +1,36 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package br.com.controle;
 
-/**
- *
- * @author 355828
- */
-public class Porteiro {
+public class Porteiro extends Pessoa{
+    private String turno;
+    private double salario;
+
+    public Porteiro(String turno, double salario, String nome) {
+        super(nome);
+        this.turno = turno;
+        this.salario = salario;
+    }
+
+    public String getTurno() {
+        return turno;
+    }
+
+    public void setTurno(String turno) {
+        this.turno = turno;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
     
+    @Override
+    public String toString() {
+        return super.toString() + 
+               "\nTurno: " + turno +
+               "\nSalário: " + salario;
+    }
 }

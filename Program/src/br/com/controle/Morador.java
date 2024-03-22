@@ -1,14 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package br.com.controle;
 
-/**
- *
- * @author 355828
- */
-public class Morador {
+public class Morador extends Pessoa{
+    private String rg;
+
+    public Morador(String rg, String nome) {
+        super(nome);
+        this.rg = rg;
+    }
+
+    public String getRg() {
+        return rg;
+    }
+
+    public void setRg(String rg) {
+        this.rg = rg;
+    }
     
+    @Override
+    public String toString() {
+        return super.toString() + 
+               "\nRG: " + rg; 
+    }
 }
