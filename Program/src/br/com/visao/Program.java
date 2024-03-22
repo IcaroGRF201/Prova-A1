@@ -64,5 +64,9 @@ public class Program {
                                 1000.69
                         )
                 );
+        
+        System.out.println(apartamento1);
+        System.out.println(loja1);
+                
     }
 }
