@@ -38,7 +38,7 @@ public class NotaFiscal {
     
     @Override
     public String toString() {
-        return "\nNota Fiscal" +
+        return "\n--- Nota Fiscal ---" +
                 "\n Número: " + numero +
                 "\n Valor: R$" + String.format("%,.2f", valor) + 
                 produto.toString();

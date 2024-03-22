@@ -5,7 +5,7 @@ public class Cliente extends Pessoa{
     private String cpf;
     private NotaFiscal notaFiscal;
 
-    public Cliente(String cpf, NotaFiscal notaFiscal, String nome) {
+    public Cliente(String cpf, String nome, NotaFiscal notaFiscal) {
         super(nome);
         this.cpf = cpf;
         this.notaFiscal = notaFiscal;
@@ -29,7 +29,7 @@ public class Cliente extends Pessoa{
     
     @Override
     public String toString() {
-        return "\n Cliente:" +
+        return "\n--- Cliente ---" +
                 super.toString() +
                 "\nCPF: " + cpf + 
                 notaFiscal.toString();

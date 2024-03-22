@@ -68,7 +68,7 @@ public class Loja {
     
     @Override 
     public String toString() {
-        return "\n Loja: " + 
+        return "\n === Loja === " + 
                 "\n Número: " + numero + 
                 "\n Nome: " + nome +
                 cliente.toString() +

@@ -28,7 +28,7 @@ public class ContraCheque {
 
     @Override
     public String toString() {
-        return "\nContra-Cheque"
+        return "\n--- Contra-Cheque ---"
                 + "\n Data:" + getData()
                 + "\n Valor:" + getValor();
     }

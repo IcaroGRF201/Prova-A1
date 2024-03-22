@@ -19,7 +19,8 @@ public class Morador extends Pessoa{
     
     @Override
     public String toString() {
-        return super.toString() + 
+        return "\n --- Morador ---" + 
+                super.toString() + 
                "\nRG: " + rg; 
     }
 }

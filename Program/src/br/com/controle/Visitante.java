@@ -29,7 +29,8 @@ public class Visitante extends Pessoa {
     
     @Override
     public String toString() {
-        return super.toString() +
+        return "\n --- Visitante --- " +
+               super.toString() +
                "\nRG: " + rg +
                "\nEndereço: " + endereco;
     }

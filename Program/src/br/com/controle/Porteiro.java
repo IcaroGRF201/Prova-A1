@@ -39,7 +39,7 @@ public class Porteiro extends Pessoa{
    
     @Override
     public String toString() {
-        return "\n Porteiro: " +
+        return "\n--- Porteiro ---" +
                 super.toString() + 
                 "\nTurno: " + turno +
                 "\nSalário: " + salario + 

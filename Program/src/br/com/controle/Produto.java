@@ -39,7 +39,7 @@ public class Produto {
 
     @Override
     public String toString() {
-        return "\n Produto"
+        return "\n--- Produto ---"
                 + "\n Código:" + getCodigo()
                 + "\n Nome:" + getNome()
                 + "\n Valor:" + getValor();

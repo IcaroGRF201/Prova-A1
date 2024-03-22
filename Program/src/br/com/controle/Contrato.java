@@ -39,7 +39,7 @@ public class Contrato {
 
     @Override
     public String toString() {
-        return "Contrato"
+        return "\n--- Contrato ---"
                 + "\n Numero:" + getNumero()
                 + "\n Descrição:" + getDescricao()
                 + "\n Valor:" + getValor();
