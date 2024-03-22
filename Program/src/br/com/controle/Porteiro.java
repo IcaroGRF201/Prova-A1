@@ -39,9 +39,10 @@ public class Porteiro extends Pessoa{
    
     @Override
     public String toString() {
-        return super.toString() + 
-               "\nTurno: " + turno +
-               "\nSalário: " + salario + 
-               contraCheque.toString();
+        return "\n Porteiro: " +
+                super.toString() + 
+                "\nTurno: " + turno +
+                "\nSalário: " + salario + 
+                contraCheque.toString();
     }
 }
